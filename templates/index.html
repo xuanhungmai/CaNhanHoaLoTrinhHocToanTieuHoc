@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tutor - Toán Tiểu Học</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🎓 AI TUTOR: TOÁN TIỂU HỌC - CÁ NHÂN HÓA LỘ TRÌNH</h1>
+        <p>Được phát triển bởi Prof. Happy AI Research Group, 2026</p>
+    </header>
+
+    <div class="main-container">
+        <!-- Cột Trái -->
+        <div class="left-panel">
+            <div class="panel-section">
+                <h3>Thông tin Học sinh</h3>
+                <div class="form-group">
+                    <label>Họ và tên:</label>
+                    <input type="text" id="studentName" value="Nguyen Van An">
+                </div>
+                <div class="form-group">
+                    <label>Trình độ / Lớp:</label>
+                    <select id="levelSelect">
+                        <option value="Cơ bản (Lớp 1-2)">Cơ bản (Lớp 1-2)</option>
+                        <option value="Trung bình (Lớp 3-4)">Trung bình (Lớp 3-4)</option>
+                        <option value="Nâng cao (Lớp 5)">Nâng cao (Lớp 5)</option>
+                    </select>
+                </div>
+                <button class="btn-primary" onclick="loadRoadmap()">Cập nhật Lộ trình</button>
+            </div>
+
+            <div class="panel-section roadmap-section">
+                <h3>Lộ Trình Toán Học (Chọn dòng để đổi bài)</h3>
+                <table class="roadmap-table">
+                    <thead>
+                        <tr>
+                            <th>Thời gian</th>
+                            <th>Chủ đề</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody id="roadmapBody">
+                        <!-- Dữ liệu sẽ được đổ vào đây bằng JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Cột Phải -->
+        <div class="right-panel">
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" onclick="openTab('exerciseTab', this)">📝 Bài Tập Toán Thích Ứng</button>
+                <button class="tab-btn" onclick="openTab('chatTab', this)">💬 Hỏi Đáp Cùng AI Tutor</button>
+            </div>
+
+            <!-- Tab Bài Tập -->
+            <div id="exerciseTab" class="tab-content active">
+                <h2 id="currentTopic" class="topic-title">Chủ đề hiện tại: Đang tải...</h2>
+                
+                <div class="exercise-section">
+                    <strong>Bài toán thích ứng:</strong>
+                    <textarea id="questionBox" readonly rows="4"></textarea>
+                    
+                    <label>💡 Chọn mẫu lời giải nhanh:</label>
+                    <select id="templateSelect" onchange="applyTemplate()">
+                        <option value="">-- Chọn mẫu lời giải nhanh --</option>
+                    </select>
+
+                    <strong>Lời giải của bạn:</strong>
+                    <textarea id="answerBox" rows="5"></textarea>
+
+                    <div class="btn-group">
+                        <button class="btn-success" onclick="submitExercise()">Nộp Bài & AI Chấm Điểm</button>
+                        <button class="btn-warning" onclick="showHint()">Xem Gợi Ý Toán Học</button>
+                    </div>
+
+                    <div class="feedback-container">
+                        <div class="feedback-box">
+                            <strong>Phản hồi từ AI Tutor:</strong>
+                            <textarea id="feedbackBox" readonly rows="10"></textarea>
+                        </div>
+                        <div class="hint-box">
+                            <strong>Gợi ý từ AI Tutor:</strong>
+                            <textarea id="hintBox" readonly rows="10">💡 Bấm nút 'Xem Gợi Ý Toán Học' phía trên để nhận hướng dẫn giải bài này nhé!</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Chat -->
+            <div id="chatTab" class="tab-content">
+                <h2 class="topic-title">Trò chuyện trực tiếp cùng AI Tutor</h2>
+                
+                <div id="chatHistory" class="chat-history">AI Tutor: Xin chào! Em gặp bài toán khó nào hay có thắc mắc gì về phép tính, hình học tiểu học không? Hãy hỏi thầy/cô nhé!</div>
+
+                <label>💡 Chọn mẫu câu hỏi nhanh:</label>
+                <select id="chatTemplateSelect" onchange="applyChatTemplate()">
+                    <option value="">-- Chọn mẫu câu hỏi nhanh --</option>
+                    <option value="Thầy/cô ơi, giải thích giúp em cách làm bài toán này với ạ!">1. Thầy/cô ơi, giải thích giúp em cách làm bài toán này với ạ!</option>
+                    <option value="Công thức tính diện tích hình thang và hình tròn là gì ạ?">2. Công thức tính diện tích hình thang và hình tròn là gì ạ?</option>
+                    <option value="Làm sao để giải nhanh dạng toán chuyển động đều ạ?">3. Làm sao để giải nhanh dạng toán chuyển động đều ạ?</option>
+                    <option value="Em chưa hiểu cách quy đồng phân số, thầy/cô giảng lại giúp em!">4. Em chưa hiểu cách quy đồng phân số, thầy/cô giảng lại giúp em!</option>
+                </select>
+
+                <div class="chat-input-group">
+                    <input type="text" id="chatInput" placeholder="Nhập câu hỏi của em..." onkeypress="handleChatEnter(event)">
+                    <button class="btn-danger" onclick="clearChat()">Clear All</button>
+                    <button class="btn-primary" onclick="sendChatMessage()">Gửi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link tới file JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

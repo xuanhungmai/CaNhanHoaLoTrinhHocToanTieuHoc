@@ -1,0 +1,220 @@
+{
+    "Cơ bản (Lớp 1-2)": [
+        {
+            "step": "Tuần 1",
+            "topic": "Ôn tập số đếm & Phép cộng trừ trong phạm vi 20",
+            "status": "Đang học",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 1-2):",
+                "question": "Đề bài: Lan có 12 viên bi, Nam cho Lan thêm 5 viên bi nữa. Hỏi Lan có tất cả bao nhiêu viên bi?",
+                "hints": "🔍 Hướng dẫn giải:\n• Muốn tìm tổng số viên bi của Lan, em lấy số viên bi ban đầu (12) cộng với số viên bi được cho thêm (5).",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ (Phép tính & Đáp số)": "Bài giải:\nSố viên bi của Lan có tất cả là:\n12 + 5 = 17 (viên bi)\nĐáp số: 17 viên bi",
+                    "2. Viết gọn phép tính và kết quả": "12 + 5 = 17 (viên bi)"
+                }
+            }
+        },
+        {
+            "step": "Tuần 2",
+            "topic": "Phép cộng, trừ có nhớ trong phạm vi 100",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 2):",
+                "question": "Đề bài: Lớp 2A thu gom được 45 vỏ chai nhựa, lớp 2B thu gom được nhiều hơn lớp 2A là 18 vỏ chai.\na) Hỏi lớp 2B thu gom được bao nhiêu vỏ chai nhựa?\nb) Cả hai lớp thu gom được tổng cộng bao nhiêu vỏ chai nhựa?",
+                "hints": "🔍 Hướng dẫn giải:\n• Gợi ý câu a): Lấy số vỏ chai lớp 2A cộng thêm phần nhiều hơn (18).\n• Gợi ý câu b): Lấy số vỏ chai lớp 2A cộng với số vỏ chai lớp 2B.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ (Phép tính & Đáp số)": "Bài giải:\na) Số vỏ chai lớp 2B thu gom được là:\n   45 + 18 = 63 (vỏ chai)\nb) Tổng số vỏ chai cả hai lớp thu gom được là:\n   45 + 63 = 108 (vỏ chai)\nĐáp số:\na) 63 vỏ chai\nb) 108 vỏ chai",
+                    "2. Viết gọn phép tính và kết quả": "a) Lớp 2B: 45 + 18 = 63 (vỏ chai)\nb) Cả hai lớp: 45 + 63 = 108 (vỏ chai)"
+                }
+            }
+        },
+        {
+            "step": "Tuần 3",
+            "topic": "Làm quen hình học cơ bản (Đoạn thẳng, hình vuông, hình tròn)",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 2):",
+                "question": "Đề bài: Cho hình vuông có độ dài một cạnh bằng 5 cm. Tính chu vi hình vuông đó.",
+                "hints": "🔍 Hướng dẫn giải:\n• Muốn tính chu vi hình vuông, ta lấy độ dài một cạnh nhân với 4.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nChu vi hình vuông là:\n5 * 4 = 20 (cm)\nĐáp số: 20 cm"
+                }
+            }
+        },
+        {
+            "step": "Tuần 4",
+            "topic": "Giải toán có lời văn đơn (1 phép tính)",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 2):",
+                "question": "Đề bài: Mẹ mua 24 quả cam, mẹ biếu bà 8 quả cam. Hỏi mẹ còn lại bao nhiêu quả cam?",
+                "hints": "🔍 Hướng dẫn giải:\n• Đây là bài toán bớt đi (phép trừ), lấy tổng số quả cam ban đầu trừ đi số quả cam đã biếu.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nSố quả cam mẹ còn lại là:\n24 - 8 = 16 (quả cam)\nĐáp số: 16 quả cam"
+                }
+            }
+        },
+        {
+            "step": "Tuần 5",
+            "topic": "Ôn tập tổng hợp & Kiểm tra định kỳ",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 2):",
+                "question": "Đề bài: Tìm x, biết:\na) x + 15 = 42\nb) 78 - x = 35",
+                "hints": "🔍 Hướng dẫn giải:\n• Muốn tìm số hạng chưa biết, lấy tổng trừ đi số hạng đã biết.\n• Muốn tìm số trừ, lấy số bị trừ trừ đi hiệu.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\na) x = 42 - 15 => x = 27\nb) x = 78 - 35 => x = 43"
+                }
+            }
+        }
+    ],
+    "Trung bình (Lớp 3-4)": [
+        {
+            "step": "Tuần 1",
+            "topic": "Bảng cửu chương & Phép nhân, chia số nhiều chữ số",
+            "status": "Hoàn thành",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 3):",
+                "question": "Đề bài: Một cửa hàng có 3 thùng dầu, mỗi thùng chứa 125 lít dầu. Người ta đã bán đi 150 lít dầu. Hỏi cửa hàng còn lại bao nhiêu lít dầu?",
+                "hints": "🔍 Hướng dẫn giải:\n• Bước 1: Tính tổng số lít dầu trong 3 thùng (lấy 125 nhân 3).\n• Bước 2: Tính số lít dầu còn lại (lấy tổng số lít trừ đi số lít đã bán).",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nTổng số lít dầu trong 3 thùng là:\n125 * 3 = 375 (lít)\nSố lít dầu cửa hàng còn lại là:\n375 - 150 = 225 (lít)\nĐáp số: 225 lít dầu"
+                }
+            }
+        },
+        {
+            "step": "Tuần 2",
+            "topic": "Đại lượng & Các đơn vị đo lường (Độ dài, khối lượng, thời gian)",
+            "status": "Đang học",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 3):",
+                "question": "Đề bài: Đổi các đơn vị sau sang héc-tô-mét (hm):\na) 3 km 5 hm = ? hm\nb) 450 m = ? hm",
+                "hints": "🔍 Hướng dẫn giải:\n• 1 km = 10 hm.\n• 100 m = 1 hm.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\na) 3 km 5 hm = 30 hm + 5 hm = 35 hm\nb) 450 m = 4.5 hm"
+                }
+            }
+        },
+        {
+            "step": "Tuần 3",
+            "topic": "Phân số cơ bản & Các tính chất của phân số",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 4):",
+                "question": "Đề bài: Tính giá trị biểu thức phân số sau:\n2/3 + 3/4",
+                "hints": "🔍 Hướng dẫn giải:\n• Quy đồng mẫu số hai phân số với mẫu số chung là 12, sau đó cộng tử số với nhau.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\n2/3 + 3/4 = 8/12 + 9/12 = 17/12"
+                }
+            }
+        },
+        {
+            "step": "Tuần 4",
+            "topic": "Giải toán phức hợp (Tìm x, Trung bình cộng)",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 4):",
+                "question": "Đề bài: Tìm số trung bình cộng của ba số: 24, 36 và 42.",
+                "hints": "🔍 Hướng dẫn giải:\n• Cộng ba số lại rồi chia tổng cho 3.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nTổng của ba số là:\n24 + 36 + 42 = 102\nSố trung bình cộng là:\n102 / 3 = 34\nĐáp số: 34"
+                }
+            }
+        },
+        {
+            "step": "Tuần 5",
+            "topic": "Hình học: Chu vi & Diện tích hình chữ nhật, hình vuông",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 4):",
+                "question": "Đề bài: Một mảnh vườn hình chữ nhật có chiều dài 20m, chiều rộng bằng 3/4 chiều dài. Tính diện tích mảnh vườn đó.",
+                "hints": "🔍 Hướng dẫn giải:\n• Tính chiều rộng = 20 * 3 / 4.\n• Tính diện tích = chiều dài * chiều rộng.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nChiều rộng hình chữ nhật là:\n20 * 3 / 4 = 15 (m)\nDiện tích mảnh vườn là:\n20 * 15 = 300 (m²)\nĐáp số: 300 m²"
+                }
+            }
+        }
+    ],
+    "Nâng cao (Lớp 5)": [
+        {
+            "step": "Tuần 1",
+            "topic": "Ôn tập & Mở rộng về Phân số, Hỗn số, Số thập phân",
+            "status": "Hoàn thành",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 5):",
+                "question": "Đề bài: Chuyển hỗn số 3 và 2/5 thành phân số, sau đó viết dưới dạng số thập phân.",
+                "hints": "🔍 Hướng dẫn giải:\n• 3 và 2/5 = (3*5 + 2)/5 = 17/5.\n• Đổi thành số thập phân bằng cách nhân tử và mẫu với 2 để mẫu là 10.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\n3 và 2/5 = (3*5+2)/5 = 17/5 = 34/10 = 3.4"
+                }
+            }
+        },
+        {
+            "step": "Tuần 2",
+            "topic": "Các phép tính với Số thập phân & Tỉ số phần trăm",
+            "status": "Đang học",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 5):",
+                "question": "Đề bài: Một trường học có 600 học sinh, trong đó số học sinh nữ chiếm 52%. Hỏi trường đó có bao nhiêu học sinh nam?",
+                "hints": "🔍 Hướng dẫn giải:\n• Tìm tỉ lệ % học sinh nam = 100% - 52% = 48%.\n• Lấy tổng số học sinh nhân 48%.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nTỉ số phần trăm học sinh nam là:\n100% - 52% = 48%\nSố học sinh nam của trường là:\n600 * 48 / 100 = 288 (học sinh)\nĐáp số: 288 học sinh"
+                }
+            }
+        },
+        {
+            "step": "Tuần 3",
+            "topic": "Hình học lớp 5: Diện tích Tam giác, Hình thang, Hình tròn",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 5):",
+                "question": "Đề bài: Tính diện tích hình thang có đáy lớn 12cm, đáy bé 8cm và chiều cao 5cm.",
+                "hints": "🔍 Hướng dẫn giải:\n• Diện tích hình thang = (Đáy lớn + Đáy bé) * Chiều cao / 2.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nDiện tích hình thang là:\n(12 + 8) * 5 / 2 = 50 (cm²)\nĐáp số: 50 cm²"
+                }
+            }
+        },
+        {
+            "step": "Tuần 4",
+            "topic": "Toán chuyển động đều (Vận tốc, Quãng đường, Thời gian)",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 5):",
+                "question": "Đề bài: Một ô tô đi với vận tốc 45 km/giờ và đi hết 3 giờ quãng đường AB. Tính độ dài quãng đường AB.",
+                "hints": "🔍 Hướng dẫn giải:\n• Quãng đường = Vận tốc nhân Thời gian (S = v * t).",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nĐộ dài quãng đường AB là:\n45 * 3 = 135 (km)\nĐáp số: 135 km"
+                }
+            }
+        },
+        {
+            "step": "Tuần 5",
+            "topic": "Ôn tập nâng cao & Toán tư duy chuẩn bị vào cấp 2",
+            "status": "Chưa bắt đầu",
+            "exercise": {
+                "title": "Bài toán thích ứng (Lớp 5):",
+                "question": "Đề bài: Tổng của hai số là 120, tỉ số của hai số đó là 3/5. Tìm hai số đó.",
+                "hints": "🔍 Hướng dẫn giải:\n• Tổng số phần bằng nhau = 3 + 5 = 8 phần.\n• Số bé = (Tổng / Tổng số phần) * 3.\n• Số lớn = Tổng - Số bé.",
+                "templates": {
+                    "-- Chọn mẫu lời giải nhanh --": "",
+                    "1. Lời giải đầy đủ": "Bài giải:\nTổng số phần bằng nhau là:\n3 + 5 = 8 (phần)\nSố bé là:\n(120 / 8) * 3 = 45\nSố lớn là:\n120 - 45 = 75\nĐáp số: Số bé: 45; Số lớn: 75"
+                }
+            }
+        }
+    ]
+}

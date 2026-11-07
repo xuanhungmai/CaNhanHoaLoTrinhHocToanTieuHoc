@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #1e293b;
+}
+
+header {
+    background-color: #0d9488;
+    color: white;
+    padding: 15px 20px;
+}
+
+header h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+.main-container {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    height: calc(100vh - 80px);
+}
+
+/* Left Panel */
+.left-panel {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.panel-section {
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.panel-section h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.form-group label {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+input, select, textarea {
+    padding: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.roadmap-section {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.roadmap-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.roadmap-table th, .roadmap-table td {
+    border: 1px solid #e2e8f0;
+    padding: 5px;
+    text-align: left;
+}
+
+.roadmap-table th {
+    background-color: #f8fafc;
+}
+
+.roadmap-table tbody tr {
+    cursor: pointer;
+}
+
+.roadmap-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.roadmap-table tbody tr.selected {
+    background-color: #ccfbf1;
+}
+
+/* Right Panel */
+.right-panel {
+    flex: 1;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    background: #e2e8f0;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #475569;
+}
+
+.tab-btn.active {
+    background: white;
+    color: #0d9488;
+    border-top: 2px solid #0d9488;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-title {
+    color: #0d9488;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.exercise-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#questionBox {
+    background-color: #f8fafc;
+    resize: vertical;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-primary { background-color: #0d9488; }
+.btn-success { background-color: #16a34a; }
+.btn-warning { background-color: #eab308; }
+.btn-danger { background-color: #dc2626; }
+
+.feedback-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.feedback-box, .hint-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-box textarea {
+    background-color: #f1f5f9;
+    resize: vertical;
+}
+
+.hint-box textarea {
+    background-color: #fefce8;
+    resize: vertical;
+}
+
+/* Chat Tab */
+.chat-history {
+    border: 1px solid #cbd5e1;
+    background-color: #f8fafc;
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 13px;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.chat-input-group {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.chat-input-group input {
+    flex: 1;
+}
